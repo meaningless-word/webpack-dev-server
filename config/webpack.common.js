@@ -1,9 +1,9 @@
-const path = require('path'); // Импортируем модуль "path" для работы с путями файлов
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require("path"); // Импортируем модуль "path" для работы с путями файлов
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
-    "index": "./src/index.js",
+    index: "./src/index.js",
   }, // Точка входа для сборки проекта
 
   output: {

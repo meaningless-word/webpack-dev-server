@@ -16,8 +16,8 @@ function showRows(rows) {
   let s = "";
   if (rows instanceof Array) {
     rows.forEach((row) => {
-        s += prepareRow(row);
-      });
+      s += prepareRow(row);
+    });
   } else {
     s = prepareRow(rows);
   }

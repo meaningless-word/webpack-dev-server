@@ -1,29 +1,30 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: wheat;
 }
-  
-input, button {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 10px;
+
+input,
+button {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
 }
 
 div.grid-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr 2fr;
-    grid-template-rows: auto;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
 }
 
 div.grid-item {
-    font-size: 12px;
-    padding: 3px;
-    margin: 2px;
-    background: gold;
-    text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  margin: 2px;
+  background: gold;
+  text-align: center;
 }
