@@ -2,13 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+    margin: 10px;
     background-color: wheat;
 }
   
-input, button, p {
+input, button {
     width: 100%;
     max-width: 300px;
     margin-bottom: 10px;
